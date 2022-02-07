@@ -6,7 +6,6 @@ import Emoji from "./Emoji";
 export default function SongCard({ song }) {
   const { uri, songTitle, albumImage, artist } = song;
   const artistNames = artist.nodes.map((artist) => artist.name).join(", ");
-  if (!albumImage) return null;
 
   return (
     <StyledArticle>
@@ -27,9 +26,9 @@ export default function SongCard({ song }) {
 }
 
 const StyledArticle = styled.article`
-  border: 2px solid var(--color-pink-5);
+  border: 2px solid var(--color-pink-8);
   border-radius: var(--border-radius);
-  box-shadow: 0 0 15px var(--color-pink-5);
+  box-shadow: 0 0 15px var(--color-pink-8);
   img {
     max-width: 100%;
     border-top-left-radius: var(--border-radius);

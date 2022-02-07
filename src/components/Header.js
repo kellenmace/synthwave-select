@@ -31,15 +31,15 @@ const StyledHeader = styled.header`
   text-align: center;
   .emoji {
     margin: 0;
-    font-size: 10rem;
-    line-height: 10rem;
+    font-size: 6rem;
+    line-height: 6rem;
   }
   h1 {
     margin-top: 1.5rem;
     font-size: 2.5rem;
-    letter-spacing: 3px;
-    text-shadow: var(--color-pink-5) 0px 0px 17px,
-      var(--color-pink-5) 0px 0px 17px;
+    letter-spacing: 5px;
+    text-shadow: var(--color-pink-8) 0px 0px 20px,
+      var(--color-pink-8) 0px 0px 4px;
   }
   ul {
     display: flex;
@@ -49,14 +49,14 @@ const StyledHeader = styled.header`
   }
   li {
     padding: 1rem;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 3px;
-    text-shadow: var(--color-pink-5) 0px 0px 13px,
-      var(--color-pink-5) 0px 0px 13px;
+    text-shadow: var(--color-pink-8) 0px 0px 13px,
+      var(--color-pink-8) 0px 0px 13px;
   }
   li + li {
-    border-left: 2px solid var(--color-pink-4);
+    border-left: 2px solid var(--color-pink-7);
   }
   a {
     text-decoration: none;

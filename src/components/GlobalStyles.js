@@ -14,7 +14,8 @@ const GlobalStyles = createGlobalStyle`
     --color-pink-4: #6c2676;
     --color-pink-5: #d376e0;
     --color-pink-6: #e885f3;
-    --color-pink-7: #ef4174;
+    --color-pink-7: #5f1833;
+    --color-pink-8: #ef4174;
     --color-dark-purple: #110629;
     --color-yellow: #f8d253;
   }
@@ -24,12 +25,11 @@ const GlobalStyles = createGlobalStyle`
    */
   html {
     box-sizing: border-box;
-    background: rgba(17, 6, 41, 0.6) url(${neon}) no-repeat center center fixed;
+    background: var(--color-pink-1) url(${neon}) no-repeat center center fixed;
     background-size: cover;
-    background-blend-mode: darken;
     font-family: "Orbitron";
-    color: var(--color-pink-6);
-    text-shadow: var(--color-pink-5) 0px 0px 15px;
+    color: var(--color-pink-8);
+    text-shadow: var(--color-pink-8) 0px 0px 15px;
     line-height: 1.8;
     font-size: 1.14rem;
     -ms-text-size-adjust: 100%;
